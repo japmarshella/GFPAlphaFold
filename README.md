@@ -12,15 +12,14 @@ We used **AlphaFold** to predict the 3D structure of **Green Fluorescent Protein
 | **Disordered regions** | None – fully structured |
 
 ## 📊 Interactive 3D model
-❗Click here to rotate the model in your browser❗
-👉
+❗[Click here to rotate the model in your browser]❗
 
 ## 👥 Team
 | Name | NIM |
 |------|------|
 | Fransiska Elsa Kusuma Astuti	| 23/513316/BI/11181 |
-⁠| Fadhila Eka Diannova		      | 23/513413/BI/11182 |
-⁠| Kheysa Alvina Handayani	      | 23/513687/BI/11183 |
+| Fadhila Eka Diannova		      | 23/513413/BI/11182 |
+| Kheysa Alvina Handayani	      | 23/513687/BI/11183 |
 | Jap. Marshella Devina K.	    | 23/514152/BI/11189 |
 | Rohkmah Sholaikhatin		      | 23/514201/BI/11192 |
 
