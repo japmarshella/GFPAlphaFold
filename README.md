@@ -34,7 +34,7 @@ We used **AlphaFold** to predict the 3D structure of **Green Fluorescent Protein
 ## 📎 Files
 - [📄 Our paper (PDF) ](PAPER.pdf)
 - [🖼️ Our poster (PDF) ](POSTER.pdf)
-- [💾 Raw PDB file ](data/AF-P42212-F1-model_v6.pdb)
+- [💾 Raw PDB file ](AF-P42212-F1-model_v6.pdb)
 
 ## 🔁 How to reproduce our results
 1. Go to [AlphaFold DB](https://alphafold.com)
