@@ -18,7 +18,7 @@ We used **AlphaFold** to predict the 3D structure of **Green Fluorescent Protein
 | **Average confidence (pLDDT)** | 96.62 (very high) |
 | **Shape** | Classic β‑barrel (11 strands) |
 | **Glowing core** | α‑helix running through the center |
-- [✍️ GFP description](P41112.identity.jpg)
+- [✍️ GFP description](P42212.identity.jpg)
 - [🖼️ View1 ](Model1.png)
 - [🖼️ View2 ](Model2.png)
 - [🖼️ View3 ](Model3.png)
