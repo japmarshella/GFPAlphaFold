@@ -1,4 +1,4 @@
-# 🔬✨ 3D Structure Prediction of Aequorea victoria Green Fluorescent Protein (GFP) β‑Barrel Folding with AlphaFold
+# 🔬✨ 3D Structure Prediction of _Aequorea victoria_ Green Fluorescent Protein (GFP) β‑Barrel Folding with AlphaFold
 
 ## 🧬 What is this project?
 We used **AlphaFold** to predict the 3D structure of **Green Fluorescent Protein (GFP)** from _Aequorea victoria_ – the protein that makes jellyfish glow and revolutionized cell biology.
