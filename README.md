@@ -14,16 +14,19 @@ We used **AlphaFold** to predict the 3D structure of **Green Fluorescent Protein
 | Rohkmah Sholaikhatin		      | 23/514201/BI/11192 |
 
 ## 🌟 Key Results
+<img width="1811" height="387" alt="Image" src="https://github.com/user-attachments/assets/c79dba16-bcc9-4e05-9d75-7bf85b0cc9f7" />
+
 | Feature | Our Finding |
 |---------|--------------|
 | **Average confidence (pLDDT)** | 96.62 (very high) |
 | **Shape** | Classic β‑barrel (11 strands) |
 | **Glowing core** | α‑helix running through the center |
-<img width="1811" height="387" alt="Image" src="https://github.com/user-attachments/assets/c79dba16-bcc9-4e05-9d75-7bf85b0cc9f7" />
-- [🖼️ View1 ](Model1.png)
-- [🖼️ View2 ](Model2.png)
-- [🖼️ View3 ](Model3.png)
-- [🖼️ View4 ](Model4.png)
+
+## 🌟 The Protein Structure
+<img width="1498" height="1815" alt="Image" src="https://github.com/user-attachments/assets/a1249f15-6d36-40f3-aa50-b920a129285b" />
+<img width="2045" height="1613" alt="Image" src="https://github.com/user-attachments/assets/78e7ec67-e971-434c-bf5d-cf16d6b0502e" />
+<img width="3563" height="2160" alt="Image" src="https://github.com/user-attachments/assets/fce50a41-4082-46da-ac14-2e7a3f6c328d" />
+<img width="3428" height="2160" alt="Image" src="https://github.com/user-attachments/assets/6ca1f582-4a93-4aa3-99b0-37b27263aa98" />
 
 ## 📊 Interactive 3D model
 ❗[Click here to rotate the model in your browser](https://molstar.org/viewer)❗
