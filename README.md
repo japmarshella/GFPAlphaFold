@@ -3,17 +3,6 @@
 ## 🧬 What is this project?
 We used **AlphaFold** to predict the 3D structure of **Green Fluorescent Protein (GFP)** from _Aequorea victoria_ – the protein that makes jellyfish glow and revolutionized cell biology.
 
-## 🌟 Key Results
-| Feature | Our Finding |
-|---------|--------------|
-| **Average confidence (pLDDT)** | 94.3% (very high) |
-| **Shape** | Classic β‑barrel (11 strands) |
-| **Glowing core** | α‑helix running through the center |
-| **Disordered regions** | None – fully structured |
-
-## 📊 Interactive 3D model
-❗[Click here to rotate the model in your browser]❗
-
 ## 👥 Team
 | Name | NIM |
 |------|------|
@@ -23,11 +12,28 @@ We used **AlphaFold** to predict the 3D structure of **Green Fluorescent Protein
 | Jap. Marshella Devina K.	    | 23/514152/BI/11189 |
 | Rohkmah Sholaikhatin		      | 23/514201/BI/11192 |
 
+## 🌟 Key Results
+| Feature | Our Finding |
+|---------|--------------|
+| **Average confidence (pLDDT)** | 96.62 (very high) |
+| **Shape** | Classic β‑barrel (11 strands) |
+| **Glowing core** | α‑helix running through the center |
+
+## 📊 Interactive 3D model
+❗[Click here to rotate the model in your browser](https://molstar.org/viewer)❗
+
 ## 📎 Files
 - [📄 Our paper (PDF) ](PAPER.pdf)
 - [🖼️ Our poster (PDF) ](POSTER.pdf)
 - [💾 Raw PDB file ](data/AF-P42212-F1-model_v6.pdb)
 
+## 🔁 How to reproduce our results
+1. Go to [AlphaFold DB](https://alphafold.com)
+2. Search “Green Fluorescent Protein” or UniProt ID `P42212`
+3. Download PDB file
+4. Open with [Mol* Viewer](https://molstar.org/viewer)
+5. Rotate, color, and screenshot
+   
 ---
 
 ⭐ *This project was made for the Bioinformatics Mini Conference 2026.*
