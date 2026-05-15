@@ -1,3 +1,4 @@
+![AlphaFold](https://img.shields.io/badge/alpha_fold-green_fluorescent_protein-brightgreen?style=for-the-badge)
 # 🔬✨ 3D Structure Prediction of _Aequorea victoria_ Green Fluorescent Protein (GFP) β‑Barrel Folding with AlphaFold
 
 ## 🧬 What is this project?
@@ -9,7 +10,7 @@ We used **AlphaFold** to predict the 3D structure of **Green Fluorescent Protein
 | Fransiska Elsa Kusuma Astuti	| 23/513316/BI/11181 |
 | Fadhila Eka Diannova		      | 23/513413/BI/11182 |
 | Kheysa Alvina Handayani	      | 23/513687/BI/11183 |
-| Jap. Marshella Devina K.	    | 23/514152/BI/11189 |
+| Jap. Marshella Devina K.	      | 23/514152/BI/11189 |
 | Rohkmah Sholaikhatin		      | 23/514201/BI/11192 |
 
 ## 🌟 Key Results
