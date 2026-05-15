@@ -29,7 +29,7 @@ We used **AlphaFold** to predict the 3D structure of **Green Fluorescent Protein
 <img width="3428" height="2160" alt="Image" src="https://github.com/user-attachments/assets/6ca1f582-4a93-4aa3-99b0-37b27263aa98" />
 
 ## 📊 Interactive 3D model
-❗[Click here to rotate the model in your browser](https://molstar.org/viewer)❗
+❗[Click here to rotate the model in your browser](https://japmarshella.github.io/GFPAlphaFold/)❗
 
 ## 📎 Files
 - [📄 Our paper (PDF) ](PAPER.pdf)
