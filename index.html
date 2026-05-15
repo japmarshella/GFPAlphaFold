@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualisasi GFP - Mol* Viewer</title>
+    <!-- Gaya untuk viewer: Mengisi penuh layar -->
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        #my-viewer {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div id="my-viewer"></div>
 
+    <!-- Panggil pustaka Mol* dari CDN jsDelivr -->
+    <!-- Menggunakan 'latest' akan memuat versi terbaru -->
+    <script src="https://cdn.jsdelivr.net/npm/molstar@latest/build/viewer/molstar.js"></script>
+    <!-- Sertakan file CSS untuk tampilan yang benar -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/molstar@latest/build/viewer/molstar.css" />
+
+    <script>
+        // Inisialisasi dan kontrol viewer
+        molstar.Viewer.create('my-viewer', {
+            layoutIsExpanded: true, // Perluas viewer ke panel penuh
+            layoutShowControls: true, // Tampilkan kontrol UI
+            layoutShowSequence: true, // Tampilkan bar sekuens (opsional, dapat diatur ke false)
+            viewportShowExpand: true, // Izinkan memperluas viewport
+            viewportShowControls: true, // Tampilkan kontrol viewport
+            // Tambahkan opsi plugin lainnya di sini jika perlu
+        }).then(viewer => {
+            // Muat file struktur lokal 'data/gfp.pdb' dari dalam repository
+            // Ganti URL ini dengan path aktual file .pdb atau .cif Anda
+            const myStructureUrl = 'data/gfp.pdb'; 
+
+            // Metode loadStructureFromUrl untuk memuat file PDB
+            viewer.loadStructureFromUrl(myStructureUrl, 'pdb')
+                .then(() => {
+                    console.log('Struktur berhasil dimuat dari:', myStructureUrl);
+                })
+                .catch(err => {
+                    console.error('Gagal memuat struktur:', err);
+                    alert('Terjadi kesalahan saat memuat file PDB. Pastikan file ada di jalur yang benar.');
+                });
+        }).catch(error => {
+            console.error('Gagal menginisialisasi viewer Mol*:', error);
+        });
+    </script>
+</body>
+</html>
